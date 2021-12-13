@@ -170,6 +170,10 @@
     background-color: $color-background;
     padding: ($baseline * 4) $padding-none $baseline;
 
+    
+    
+
+
         .icon-services {
             color: $color-primary;
             width: $base-font-size * 4.5;
@@ -177,6 +181,14 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transition: 0.5s;
+            
+        }
+
+        .icon-services:hover {
+            transform: rotate(45deg);
+            
+
         }
 
 

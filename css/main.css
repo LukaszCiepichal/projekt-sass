@@ -11944,6 +11944,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .t108-one-page #counters-services .counters-box {
